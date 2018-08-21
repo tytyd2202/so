@@ -86,7 +86,8 @@ karjok()
 karjok = input("\033[1;91mKarjok \033[1;37m=>>")
 
 def mbf():
- sys.stdout.write(open("karjok/mbf.py").read())
+ sys.stdout.write(open("karjok/").read())
+ os.system("python2 mbf.py")
       
 if karjok == 1:
 	mbf()
